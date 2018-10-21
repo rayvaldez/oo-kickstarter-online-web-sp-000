@@ -7,6 +7,6 @@ class Backer
 
   def back_project(project)
     backed_projects = []
-    backed_projects << Project.new
+    binding.pry
   end
 end
